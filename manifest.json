@@ -1,6 +1,6 @@
 {
   "name": "Covid-19 Mouse Pointer",
-  "version": "2.1.10",
+  "version": "2.2.0",
   "description": "friendly reminder: CLEAN YOUR F*CKING HANDS!",
   "manifest_version": 2,
   "icons": {
@@ -8,6 +8,21 @@
     "32": "logos/32_32.png",
     "48": "logos/48_48.png",
     "128": "logos/128_128.png"
+  },
+  "permissions": ["declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_title": "Cursor Sanitizer",
+    "default_icon": {
+      "16": "logos/16_16.png",
+      "32": "logos/32_32.png",
+      "48": "logos/48_48.png",
+      "128": "logos/128_128.png"
+    }
   },
   "content_scripts": [
     {
