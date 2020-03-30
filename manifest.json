@@ -1,7 +1,7 @@
 {
-  "name": "Covid-19 Mouse Pointer",
+  "name": "Cursor Sanitizer",
   "version": "2.2.0",
-  "description": "friendly reminder: WASH YOUR FUCKING HANDS!",
+  "description": "A friendly reminder: WASH YOUR FUCKING HANDS",
   "manifest_version": 2,
   "icons": {
     "16": "logos/16_16.png",
