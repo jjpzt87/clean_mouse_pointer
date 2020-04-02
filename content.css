@@ -10,12 +10,36 @@ body {
     default !important;
 }
 
-body *:hover {
+/* body *:hover {
   cursor: url("https://juanmediachrome.s3.eu-west-3.amazonaws.com/hands_default.png")
       24 1,
     default !important;
   cursor: -webkit-image-set(
         url("https://juanmediachrome.s3.eu-west-3.amazonaws.com/hands_default.png")
+          1x
+      )
+      24 1,
+    default !important;
+} */
+
+.washing_hand_in {
+  cursor: url("https://juanmediachrome.s3.eu-west-3.amazonaws.com/hands_default.png")
+      24 1,
+    default !important;
+  cursor: -webkit-image-set(
+        url("https://juanmediachrome.s3.eu-west-3.amazonaws.com/hands_default.png")
+          1x
+      )
+      24 1,
+    default !important;
+}
+
+.washing_hand_out {
+  cursor: url("https://juanmediachrome.s3.eu-west-3.amazonaws.com/hands_transition.png")
+      24 1,
+    default !important;
+  cursor: -webkit-image-set(
+        url("https://juanmediachrome.s3.eu-west-3.amazonaws.com/hands_transition.png")
           1x
       )
       24 1,

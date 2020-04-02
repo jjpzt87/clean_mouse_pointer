@@ -1,6 +1,6 @@
 {
   "name": "Cursor Sanitizer",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "A friendly reminder: WASH YOUR FUCKING HANDS",
   "manifest_version": 2,
   "icons": {
@@ -22,7 +22,8 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["content.css"]
+      "css": ["content.css"],
+      "js": ["content.js"]
     }
   ]
 }
